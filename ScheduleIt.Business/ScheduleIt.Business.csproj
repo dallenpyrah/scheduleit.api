@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ScheduleIt.Contracts\ScheduleIt.Contracts.csproj" />
+      <ProjectReference Include="..\ScheduleIt.DataAccess\ScheduleIt.DataAccess.csproj" />
+      <ProjectReference Include="..\ScheduleIt.Data\ScheduleIt.Data.csproj" />
+      <ProjectReference Include="..\ScheduleIt.Interfaces\ScheduleIt.Interfaces.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+      <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.32.1" />
+      <PackageReference Include="System.ComponentModel.Annotations" Version="5.0.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.1" />
+    </ItemGroup>
+
+</Project>
